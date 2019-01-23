@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
-import { MatButtonModule, MatAutocompleteModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldModule, MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule, MatSlideToggleModule, MatMenuModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
+import { MatButtonModule, MatAutocompleteModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldModule, MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule, MatSlideToggleModule, MatMenuModule, MatSidenavModule, MatToolbarModule, MatNativeDateModule, MatSidenav, MatToolbar, MatNavList, MatListModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
     imports: [
         MatButtonModule,
@@ -8,6 +9,7 @@ import { MatIconModule } from '@angular/material';
         MatAutocompleteModule,
         MatCheckboxModule,
         MatDatepickerModule,
+        MatNativeDateModule,
         MatFormFieldModule,
         MatInputModule,
         MatRadioModule,
@@ -16,7 +18,11 @@ import { MatIconModule } from '@angular/material';
         MatSlideToggleModule,
         MatMenuModule,
         MatSidenavModule,
-        MatToolbarModule
+        MatToolbarModule,
+        ReactiveFormsModule,
+        MatSidenavModule,
+        MatToolbarModule,
+        MatListModule
     ],
     exports: [
         MatButtonModule,
@@ -24,6 +30,7 @@ import { MatIconModule } from '@angular/material';
         MatAutocompleteModule,
         MatCheckboxModule,
         MatDatepickerModule,
+        MatNativeDateModule,
         MatFormFieldModule,
         MatInputModule,
         MatRadioModule,
@@ -32,7 +39,11 @@ import { MatIconModule } from '@angular/material';
         MatSlideToggleModule,
         MatMenuModule,
         MatSidenavModule,
-        MatToolbarModule
+        MatToolbarModule,
+        ReactiveFormsModule,
+        MatSidenavModule,
+        MatToolbarModule,
+        MatListModule
     ]
 })
 
